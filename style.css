@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  padding: 20px;
+}
+
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container button {
+  background-color: red;
+  border-radius: 5px;
+  color: #000;
+  border: 1px solid transparent ;
+}
+
+h1{
+  text-align: center;
+}
+
+@media (max-width:540px){
+  .container{
+    flex-direction: column;
+    }
+   .container input {
+     margin-top: 20px;
+   }
+   .container select {
+     margin-top: 20px;
+   }
+   .container button {
+     margin-top: 20px;
+   }
+  }
